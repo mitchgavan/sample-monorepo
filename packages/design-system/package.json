@@ -1,0 +1,41 @@
+{
+  "name": "@sample/design-system",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "private": true,
+  "dependencies": {
+    "@stitches/react": "^1.0.0",
+    "@types/jest": "^26.0.13",
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "cra-template-typescript": "1.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "scripts": {
+    "dev": "tsc -p tsconfig.build.json --watch",
+    "build": "tsc -p tsconfig.build.json",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
