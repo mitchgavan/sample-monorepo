@@ -1,0 +1,7 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/dashboard/src" },
+    { "path": "./packages/design-system/src" }
+  ]
+}

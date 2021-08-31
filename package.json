@@ -1,0 +1,15 @@
+{
+  "name": "sample-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mitch Gavan",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "prettier": "^2.3.2",
+    "typescript": "~4.4.2"
+  }
+}
